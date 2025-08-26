@@ -15,7 +15,7 @@ body{
     border-radius: 15px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(0, 0, 0, 0.1);C:\Users\HP\OneDrive\Desktop\Weather App\style.css
+    border: 1px solid rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -25,7 +25,7 @@ h2, label, p {
 }
 
 input{
-    width: (100% - 16px);
+    width: calc(100% - 16px);
     padding: 8px;
     box-sizing: border-box;
     border-radius: 6px;
@@ -65,7 +65,7 @@ button:hover{
     font-size: 20px;
 }
 
-#weather-icon{
+#weather_icon{
     width: 200px;
     height: 200px;
     margin: 0 auto 10px;
